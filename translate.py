@@ -11,6 +11,8 @@ print '-' * 100
 list_all = list_path.split('\n')
 print path
 
+print '-' * 100
+
 subprocess.check_output(['mkdir', path + '/translate'])
 trans_path = path + '/translate'
  
