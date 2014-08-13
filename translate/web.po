@@ -326,14 +326,14 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:1663
 #, python-format
 msgid "Custom Filter"
-msgstr ""
+msgstr "Lọc tùy chỉnh"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:177
 #, python-format
 msgid "Duplicate Database"
-msgstr ""
+msgstr "Nhân đôi CSDL"
 
 #. module: web
 #. openerp-web
@@ -348,14 +348,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:354
 #, python-format
 msgid "Change Password"
-msgstr ""
+msgstr "Đổi mật khẩu"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:3528
 #, python-format
 msgid "View type '%s' is not supported in One2Many."
-msgstr ""
+msgstr "Kiểu hiển thị '%s' không hỗ trợ Một - Nhiều"
 
 #. module: web
 #. openerp-web
@@ -363,21 +363,21 @@ msgstr ""
 #: code:addons/web/static/src/js/view_list.js:2204
 #, python-format
 msgid "Download"
-msgstr ""
+msgstr "Tải về"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:270
 #, python-format
 msgid "'%s' is not a correct datetime"
-msgstr ""
+msgstr "'%s' không đúng định dạng thời gian"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_list.js:432
 #, python-format
 msgid "Group"
-msgstr ""
+msgstr "Nhóm"
 
 #. module: web
 #. openerp-web
