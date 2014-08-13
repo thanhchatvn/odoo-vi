@@ -29,14 +29,14 @@ msgstr "Ngôn ngữ mặc định"
 #: code:addons/web/static/src/js/coresetup.js:592
 #, python-format
 msgid "%d minutes ago"
-msgstr ""
+msgstr "%d phút trước"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/coresetup.js:620
 #, python-format
 msgid "Still loading...<br />Please be patient."
-msgstr ""
+msgstr "Đang nạp... <br />Vui lòng đợi."
 
 #. module: web
 #. openerp-web
@@ -52,14 +52,14 @@ msgstr ""
 #: code:addons/web/static/src/js/search.js:2124
 #, python-format
 msgid "less or equal than"
-msgstr ""
+msgstr "nhỏ hơn hoặc bằng"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:410
 #, python-format
 msgid "Please enter your previous password"
-msgstr ""
+msgstr "Vui lòng điền mật khẩu trước"
 
 #. module: web
 #. openerp-web
@@ -68,35 +68,35 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:300
 #, python-format
 msgid "Master password:"
-msgstr ""
+msgstr "Mật khẩu chính"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:292
 #, python-format
 msgid "Change Master Password"
-msgstr ""
+msgstr "Thay đổi mật khẩu chính"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:513
 #, python-format
 msgid "Do you really want to delete the database: %s ?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xóa Cơ sở dữ liệu :%s ?"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/search.js:1502
 #, python-format
 msgid "Search %(field)s at: %(value)s"
-msgstr ""
+msgstr "Tìm kiếm %(field)s ở: %(value)s"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:559
 #, python-format
 msgid "Access Denied"
-msgstr ""
+msgstr "Truy cập bị từ chối"
 
 #. module: web
 #. openerp-web
