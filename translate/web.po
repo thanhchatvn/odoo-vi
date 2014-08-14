@@ -2480,7 +2480,7 @@ msgstr ""
 #: code:addons/web/static/src/js/views.js:1073
 #, python-format
 msgid "Print"
-msgstr ""
+msgstr "In"
 
 #. module: web
 #. openerp-web
@@ -2501,28 +2501,28 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:583
 #, python-format
 msgid "Creation User:"
-msgstr ""
+msgstr "Tạo tài khoản"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:769
 #, python-format
 msgid "Do you really want to delete this record?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xoá dữ liệu này?"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1413
 #, python-format
 msgid "Save & Close"
-msgstr ""
+msgstr "Lưu và đóng"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:2932
 #, python-format
 msgid "Search More..."
-msgstr ""
+msgstr "Tìm kiếm thêm..."
 
 #. module: web
 #. openerp-web
@@ -2539,21 +2539,21 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1206
 #, python-format
 msgid "Edit"
-msgstr ""
+msgstr "Sửa"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1727
 #, python-format
 msgid "Remove"
-msgstr ""
+msgstr "Xoá"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1090
 #, python-format
 msgid "Select date"
-msgstr ""
+msgstr "Chọn Ngày"
 
 #. module: web
 #. openerp-web
@@ -2568,14 +2568,14 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1305
 #, python-format
 msgid "Delete this file"
-msgstr ""
+msgstr "Xoá file này"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:168
 #, python-format
 msgid "Create Database"
-msgstr ""
+msgstr "Tạo mới CSDL"
 
 #. module: web
 #. openerp-web
@@ -2596,7 +2596,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:318
 #, python-format
 msgid "Back to Login"
-msgstr ""
+msgstr "Quay về màn hình Login"
 
 #. module: web
 #. openerp-web
@@ -2604,4 +2604,4 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1480
 #, python-format
 msgid "Filters"
-msgstr ""
+msgstr "Bộ lọc"
