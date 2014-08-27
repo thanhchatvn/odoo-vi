@@ -20,7 +20,7 @@ msgstr ""
 #. module: sale
 #: model:res.groups,name:sale.group_analytic_accounting
 msgid "Analytic Accounting for Sales"
-msgstr ""
+msgstr "Kế toán quản trị bán hàng"
 
 #. module: sale
 #: model:process.transition,name:sale.process_transition_confirmquotation0
@@ -30,7 +30,7 @@ msgstr "Xác nhận báo giá"
 #. module: sale
 #: view:board.board:0
 msgid "Sales Dashboard"
-msgstr ""
+msgstr "Bảng thông tin bán hàng"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:92
