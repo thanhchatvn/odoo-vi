@@ -8,14 +8,15 @@ msgstr ""
 "Project-Id-Version: openobject-addons\n"
 "Report-Msgid-Bugs-To: support@openerp.com\n"
 "POT-Creation-Date: 2012-12-21 17:04+0000\n"
-"PO-Revision-Date: 2012-05-10 17:54+0000\n"
+"PO-Revision-Date: 2014-08-28 23:29+0700\n"
 "Last-Translator: Raphael Collet (OpenERP) <Unknown>\n"
-"Language-Team: Vietnamese <vi@li.org>\n"
+"Language-Team: Vietnamese\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2014-04-22 06:52+0000\n"
-"X-Generator: Launchpad (build 16985)\n"
+"X-Generator: Poedit 1.6.5\n"
+"Language: vi\n"
 
 #. module: sale
 #: model:res.groups,name:sale.group_analytic_accounting
@@ -42,7 +43,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:sale.action_order_line_tree2
 #: model:ir.ui.menu,name:sale.menu_invoicing_sales_order_lines
 msgid "Order Lines to Invoice"
-msgstr ""
+msgstr "Dòng đơn hàng xuất HĐ"
 
 #. module: sale
 #: field:sale.order,date_confirm:0
@@ -50,9 +51,7 @@ msgid "Confirmation Date"
 msgstr "Ngày xác nhận"
 
 #. module: sale
-#: view:sale.order:0
-#: view:sale.order.line:0
-#: view:sale.report:0
+#: view:sale.order:0 view:sale.order.line:0 view:sale.report:0
 msgid "Group By..."
 msgstr "Nhóm theo..."
 
@@ -64,7 +63,7 @@ msgstr "Đối tác phân phối"
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
 msgid "Invoice Order"
-msgstr ""
+msgstr "Xuất HĐ"
 
 #. module: sale
 #: view:sale.config.settings:0
@@ -83,6 +82,8 @@ msgid ""
 "invoice automatically.\n"
 "            It installs the account_analytic_analysis module."
 msgstr ""
+"Cho phép xác định điều kiện hợp đồng: Cách xuất hóa đơn (giá cố định, theo "
+"nhân công, trả truwocs0, giá cố định..."
 
 #. module: sale
 #: model:email.template,report_name:sale.email_template_edi_sale
@@ -92,15 +93,14 @@ msgid ""
 msgstr ""
 
 #. module: sale
-#: view:sale.order.line:0
-#: field:sale.report,product_uom:0
+#: view:sale.order.line:0 field:sale.report,product_uom:0
 msgid "Unit of Measure"
 msgstr "Đơn vị tính"
 
 #. module: sale
 #: field:sale.order.line,type:0
 msgid "Procurement Method"
-msgstr ""
+msgstr "Phương pháp thu mua"
 
 #. module: sale
 #: help:sale.order,date_confirm:0
@@ -110,7 +110,7 @@ msgstr "Ngày xác nhận"
 #. module: sale
 #: field:account.config.settings,module_sale_analytic_plans:0
 msgid "Use multiple analytic accounts on sales"
-msgstr ""
+msgstr "Sử dụng nhiều tài khoản kế toán kinh doanh"
 
 #. module: sale
 #: selection:sale.report,month:0
@@ -129,16 +129,13 @@ msgid "Quotation Number"
 msgstr "Số hiệu Báo giá"
 
 #. module: sale
-#: view:sale.order:0
-#: field:sale.order,message_unread:0
+#: view:sale.order:0 field:sale.order,message_unread:0
 msgid "Unread Messages"
-msgstr ""
+msgstr "Tin chưa đọc"
 
 #. module: sale
-#: field:sale.order,company_id:0
-#: field:sale.order.line,company_id:0
-#: view:sale.report:0
-#: field:sale.report,company_id:0
+#: field:sale.order,company_id:0 field:sale.order.line,company_id:0
+#: view:sale.report:0 field:sale.report,company_id:0
 #: field:sale.shop,company_id:0
 msgid "Company"
 msgstr "Công ty"
@@ -159,8 +156,7 @@ msgid "Quotation confirmed"
 msgstr "Báo giá đã xác nhận"
 
 #. module: sale
-#: selection:sale.order,state:0
-#: selection:sale.report,state:0
+#: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Invoice Exception"
 msgstr "Hóa đơn ngoại lệ"
 
@@ -180,8 +176,7 @@ msgid "Delivery Address"
 msgstr "Địa chỉ Giao hàng"
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,analytic_account_id:0
+#: view:sale.report:0 field:sale.report,analytic_account_id:0
 #: field:sale.shop,project_id:0
 msgid "Analytic Account"
 msgstr "Tài khoản KTQT"
@@ -189,7 +184,7 @@ msgstr "Tài khoản KTQT"
 #. module: sale
 #: field:sale.config.settings,module_sale_journal:0
 msgid "Allow batch invoicing of delivery orders through journals"
-msgstr ""
+msgstr "Cho phép xuất Hđ hàng loạt qua sổ"
 
 #. module: sale
 #: field:sale.order.line,price_subtotal:0
@@ -197,8 +192,7 @@ msgid "Subtotal"
 msgstr "Tổng phụ"
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,day:0
+#: view:sale.report:0 field:sale.report,day:0
 msgid "Day"
 msgstr "Ngày"
 
@@ -238,7 +232,7 @@ msgstr "Dữ liệu sai"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:102
 #, python-format
 msgid "The value of Advance Amount must be positive."
-msgstr ""
+msgstr "Giá trị Trả trước phải dương"
 
 #. module: sale
 #: help:sale.config.settings,group_discount_per_so_line:0
@@ -258,7 +252,7 @@ msgstr "theo đơn hàng"
 #. module: sale
 #: field:sale.order,message_ids:0
 msgid "Messages"
-msgstr ""
+msgstr "Tin nhắn"
 
 #. module: sale
 #: field:sale.report,state:0
@@ -266,8 +260,7 @@ msgid "Order Status"
 msgstr "Trạng thái Đơn hàng"
 
 #. module: sale
-#: field:sale.order,amount_tax:0
-#: field:sale.order.line,tax_id:0
+#: field:sale.order,amount_tax:0 field:sale.order.line,tax_id:0
 msgid "Taxes"
 msgstr "Thuế"
 
@@ -279,15 +272,12 @@ msgstr "Tổng Chưa thuế"
 #. module: sale
 #: field:sale.config.settings,module_project:0
 msgid "Project"
-msgstr ""
+msgstr "Dự án"
 
 #. module: sale
-#: code:addons/sale/sale.py:185
-#: code:addons/sale/sale.py:363
-#: code:addons/sale/sale.py:504
-#: code:addons/sale/sale.py:598
-#: code:addons/sale/sale.py:763
-#: code:addons/sale/sale.py:780
+#: code:addons/sale/sale.py:185 code:addons/sale/sale.py:363
+#: code:addons/sale/sale.py:504 code:addons/sale/sale.py:598
+#: code:addons/sale/sale.py:763 code:addons/sale/sale.py:780
 #, python-format
 msgid "Error!"
 msgstr "Lỗi"
@@ -304,6 +294,8 @@ msgid ""
 "replenishment.\n"
 "On order: When needed, the product is purchased or produced."
 msgstr ""
+"Ở kho: Khi cần thiết, sản phẩm này sẽ được lấy từ kho hoặc đợi mua thêm.\n"
+"Trên đơn hàng: khi cần, sản phẩm này sẽ được mua hoặc sản xuất."
 
 #. module: sale
 #: help:sale.config.settings,module_analytic_user_function:0
@@ -318,8 +310,7 @@ msgid ""
 msgstr ""
 
 #. module: sale
-#: selection:sale.order,state:0
-#: selection:sale.order.line,state:0
+#: selection:sale.order,state:0 selection:sale.order.line,state:0
 #: selection:sale.report,state:0
 msgid "Cancelled"
 msgstr "Đã hủy"
@@ -327,7 +318,7 @@ msgstr "Đã hủy"
 #. module: sale
 #: view:sale.order.line:0
 msgid "Sales Order Lines related to a Sales Order of mine"
-msgstr ""
+msgstr "Các dòng hàng trong Đơn hàng của tôi"
 
 #. module: sale
 #: selection:sale.order,state:0
@@ -345,8 +336,7 @@ msgid "If checked new messages require your attention."
 msgstr ""
 
 #. module: sale
-#: selection:sale.order,state:0
-#: selection:sale.report,state:0
+#: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Shipping Exception"
 msgstr "Vận chuyển ngoại lệ"
 
@@ -357,9 +347,7 @@ msgstr "Số lượng (Đơn vị bán)"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_shop_form
-#: field:sale.order,shop_id:0
-#: view:sale.report:0
-#: field:sale.report,shop_id:0
+#: field:sale.order,shop_id:0 view:sale.report:0 field:sale.report,shop_id:0
 msgid "Shop"
 msgstr "Cửa hàng"
 
@@ -376,12 +364,12 @@ msgstr "Địa chỉ hóa đơn"
 #. module: sale
 #: help:sale.order,create_date:0
 msgid "Date on which sales order is created."
-msgstr ""
+msgstr "Ngày đơn hàng được tạo"
 
 #. module: sale
 #: view:res.partner:0
 msgid "False"
-msgstr ""
+msgstr "Sai"
 
 #. module: sale
 #: help:sale.advance.payment.inv,advance_payment_method:0
@@ -394,33 +382,32 @@ msgid ""
 msgstr ""
 
 #. module: sale
-#: view:sale.make.invoice:0
-#: view:sale.order.line.make.invoice:0
+#: view:sale.make.invoice:0 view:sale.order.line.make.invoice:0
 msgid "Create Invoices"
 msgstr "Tạo các hóa đơn"
 
 #. module: sale
 #: report:sale.order:0
 msgid "Tax"
-msgstr ""
+msgstr "Thuế"
 
 #. module: sale
-#: code:addons/sale/sale.py:277
-#: code:addons/sale/sale.py:820
+#: code:addons/sale/sale.py:277 code:addons/sale/sale.py:820
 #: code:addons/sale/sale.py:983
 #, python-format
 msgid "Invalid Action!"
-msgstr ""
+msgstr "Không hợp leej1"
 
 #. module: sale
 #: help:sale.order,state:0
 msgid ""
 "Gives the status of the quotation or sales order.              \n"
-"The exception status is automatically set when a cancel operation occurs     "
-"          in the invoice validation (Invoice Exception) or in the picking "
-"list process (Shipping Exception).\n"
-"The 'Waiting Schedule' status is set when the invoice is confirmed           "
-"    but waiting for the scheduler to run on the order date."
+"The exception status is automatically set when a cancel operation "
+"occurs               in the invoice validation (Invoice Exception) or in the "
+"picking list process (Shipping Exception).\n"
+"The 'Waiting Schedule' status is set when the invoice is "
+"confirmed               but waiting for the scheduler to run on the order "
+"date."
 msgstr ""
 
 #. module: sale
@@ -429,8 +416,7 @@ msgid "Date Confirm"
 msgstr "Ngày xác nhận"
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,nbr:0
+#: view:sale.report:0 field:sale.report,nbr:0
 msgid "# of Lines"
 msgstr ""
 
@@ -447,8 +433,7 @@ msgid "Gives the sequence order when displaying a list of sales order lines."
 msgstr ""
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,product_uom_qty:0
+#: view:sale.report:0 field:sale.report,product_uom_qty:0
 msgid "# of Qty"
 msgstr ""
 
@@ -460,8 +445,7 @@ msgstr "Fax :"
 #. module: sale
 #: code:addons/sale/sale.py:277
 #, python-format
-msgid ""
-"In order to delete a confirmed sales order, you must cancel it before !"
+msgid "In order to delete a confirmed sales order, you must cancel it before !"
 msgstr ""
 
 #. module: sale
@@ -470,8 +454,7 @@ msgid "(update)"
 msgstr ""
 
 #. module: sale
-#: model:ir.model,name:sale.model_res_partner
-#: view:sale.report:0
+#: model:ir.model,name:sale.model_res_partner view:sale.report:0
 #: field:sale.report,partner_id:0
 msgid "Partner"
 msgstr "Đối tác"
@@ -482,14 +465,12 @@ msgid "Contract Features"
 msgstr ""
 
 #. module: sale
-#: code:addons/sale/sale.py:287
-#: code:addons/sale/sale.py:584
+#: code:addons/sale/sale.py:287 code:addons/sale/sale.py:584
 #: model:ir.model,name:sale.model_sale_order
 #: model:process.node,name:sale.process_node_order0
 #: model:process.node,name:sale.process_node_saleorder0
 #: field:res.partner,sale_order_ids:0
-#: model:res.request.link,name:sale.req_link_sale_order
-#: view:sale.order:0
+#: model:res.request.link,name:sale.req_link_sale_order view:sale.order:0
 #: selection:sale.order,state:0
 #, python-format
 msgid "Sales Order"
@@ -554,8 +535,7 @@ msgid "You cannot cancel a sales order line that has already been invoiced."
 msgstr ""
 
 #. module: sale
-#: view:account.invoice.report:0
-#: view:board.board:0
+#: view:account.invoice.report:0 view:board.board:0
 #: model:ir.actions.act_window,name:sale.action_turnover_by_month
 msgid "Monthly Turnover"
 msgstr ""
@@ -566,8 +546,7 @@ msgid "Shipped Quantities"
 msgstr "Số lượng vận chuyển"
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,year:0
+#: view:sale.report:0 field:sale.report,year:0
 msgid "Year"
 msgstr "Năm"
 
@@ -597,8 +576,7 @@ msgid "Order N°"
 msgstr "Số Đơn đặt hàng"
 
 #. module: sale
-#: view:sale.order:0
-#: field:sale.order,order_line:0
+#: view:sale.order:0 field:sale.order,order_line:0
 msgid "Order Lines"
 msgstr "Sản phẩm chào hàng"
 
@@ -619,8 +597,7 @@ msgid "Invoice Lines"
 msgstr "Sản phẩm lập hóa đơn"
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,price_total:0
+#: view:sale.report:0 field:sale.report,price_total:0
 msgid "Total Price"
 msgstr "Giá tổng"
 
@@ -676,8 +653,7 @@ msgid "Creation Date"
 msgstr "Ngày tạo"
 
 #. module: sale
-#: view:sale.order:0
-#: view:sale.order.line:0
+#: view:sale.order:0 view:sale.order.line:0
 msgid "To Invoice"
 msgstr ""
 
@@ -702,8 +678,7 @@ msgid "Addresses in Sales Orders"
 msgstr ""
 
 #. module: sale
-#: field:sale.advance.payment.inv,qtty:0
-#: report:sale.order:0
+#: field:sale.advance.payment.inv,qtty:0 report:sale.order:0
 #: field:sale.order.line,product_uom_qty:0
 msgid "Quantity"
 msgstr "Số lượng"
@@ -724,8 +699,7 @@ msgid "My Sales"
 msgstr ""
 
 #. module: sale
-#: field:sale.order,name:0
-#: field:sale.order.line,order_id:0
+#: field:sale.order,name:0 field:sale.order.line,order_id:0
 msgid "Order Reference"
 msgstr "Số tham chiếu đơn chào hàng"
 
@@ -742,14 +716,14 @@ msgstr "Tháng Bảy"
 #. module: sale
 #: help:sale.order.line,state:0
 msgid ""
-"* The 'Draft' status is set when the related sales order in draft status.    "
-"                 \n"
-"* The 'Confirmed' status is set when the related sales order is confirmed.   "
-"                  \n"
+"* The 'Draft' status is set when the related sales order in draft "
+"status.                     \n"
+"* The 'Confirmed' status is set when the related sales order is "
+"confirmed.                     \n"
 "* The 'Exception' status is set when the related sales order is set as "
 "exception.                     \n"
-"* The 'Done' status is set when the sales order line has been picked.        "
-"             \n"
+"* The 'Done' status is set when the sales order line has been "
+"picked.                     \n"
 "* The 'Cancelled' status is set when a user cancel the sales order related."
 msgstr ""
 
@@ -772,11 +746,8 @@ msgid "Analytic accounting for sales"
 msgstr ""
 
 #. module: sale
-#: view:sale.order:0
-#: field:sale.order,state:0
-#: view:sale.order.line:0
-#: field:sale.order.line,state:0
-#: view:sale.report:0
+#: view:sale.order:0 field:sale.order,state:0 view:sale.order.line:0
+#: field:sale.order.line,state:0 view:sale.report:0
 msgid "Status"
 msgstr "Trạng thái"
 
@@ -924,8 +895,7 @@ msgid "Shipped"
 msgstr ""
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,month:0
+#: view:sale.report:0 field:sale.report,month:0
 msgid "Month"
 msgstr "Tháng"
 
@@ -940,8 +910,7 @@ msgid "Uninvoiced"
 msgstr ""
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,categ_id:0
+#: view:sale.report:0 field:sale.report,categ_id:0
 msgid "Category of Product"
 msgstr ""
 
@@ -977,8 +946,7 @@ msgid "Taxes :"
 msgstr "Thuế :"
 
 #. module: sale
-#: field:sale.order,invoice_exists:0
-#: field:sale.order.line,invoiced:0
+#: field:sale.order,invoice_exists:0 field:sale.order.line,invoiced:0
 msgid "Invoiced"
 msgstr "Đã xuất hóa đơn"
 
@@ -1023,8 +991,7 @@ msgid "Trigger delivery orders automatically from sales orders"
 msgstr ""
 
 #. module: sale
-#: view:sale.make.invoice:0
-#: view:sale.order.line.make.invoice:0
+#: view:sale.make.invoice:0 view:sale.order.line.make.invoice:0
 msgid "Create invoices"
 msgstr "Tạo hóa đơn"
 
@@ -1065,8 +1032,7 @@ msgid "Contract / Analytic"
 msgstr ""
 
 #. module: sale
-#: selection:sale.order,state:0
-#: selection:sale.report,state:0
+#: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Waiting Schedule"
 msgstr "Lịch chờ"
 
@@ -1077,8 +1043,7 @@ msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders
-#: model:ir.ui.menu,name:sale.menu_sale_order
-#: view:sale.order:0
+#: model:ir.ui.menu,name:sale.menu_sale_order view:sale.order:0
 msgid "Sales Orders"
 msgstr "Đơn chào hàng"
 
@@ -1138,8 +1103,7 @@ msgstr "Đơn đặt hàng"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_report_all
-#: model:ir.ui.menu,name:sale.menu_report_product_all
-#: view:sale.report:0
+#: model:ir.ui.menu,name:sale.menu_report_product_all view:sale.report:0
 msgid "Sales Analysis"
 msgstr "Phân tích Bán hàng"
 
@@ -1166,13 +1130,9 @@ msgid "Date"
 msgstr ""
 
 #. module: sale
-#: report:sale.order:0
-#: view:sale.order:0
-#: field:sale.order,user_id:0
-#: view:sale.order.line:0
-#: field:sale.order.line,salesman_id:0
-#: view:sale.report:0
-#: field:sale.report,user_id:0
+#: report:sale.order:0 view:sale.order:0 field:sale.order,user_id:0
+#: view:sale.order.line:0 field:sale.order.line,salesman_id:0
+#: view:sale.report:0 field:sale.report,user_id:0
 msgid "Salesperson"
 msgstr ""
 
@@ -1187,8 +1147,7 @@ msgid "Extended Filters..."
 msgstr "Bộ lọc mở rộng..."
 
 #. module: sale
-#: model:process.node,name:sale.process_node_quotation0
-#: view:sale.order:0
+#: model:process.node,name:sale.process_node_quotation0 view:sale.order:0
 #: selection:sale.report,state:0
 msgid "Quotation"
 msgstr "Báo giá"
@@ -1217,8 +1176,7 @@ msgid ""
 msgstr ""
 
 #. module: sale
-#: model:ir.model,name:sale.model_sale_shop
-#: view:sale.shop:0
+#: model:ir.model,name:sale.model_sale_shop view:sale.shop:0
 msgid "Sales Shop"
 msgstr ""
 
@@ -1332,15 +1290,13 @@ msgid "Advance of %s %s"
 msgstr ""
 
 #. module: sale
-#: view:sale.report:0
-#: field:sale.report,delay:0
+#: view:sale.report:0 field:sale.report,delay:0
 msgid "Commitment Delay"
 msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_quotations
-#: model:ir.ui.menu,name:sale.menu_sale_quotations
-#: view:sale.order:0
+#: model:ir.ui.menu,name:sale.menu_sale_quotations view:sale.order:0
 #: view:sale.report:0
 msgid "Quotations"
 msgstr "Các báo giá"
@@ -1389,8 +1345,7 @@ msgid "Date Order"
 msgstr ""
 
 #. module: sale
-#: field:sale.order,pricelist_id:0
-#: field:sale.report,pricelist_id:0
+#: field:sale.order,pricelist_id:0 field:sale.report,pricelist_id:0
 #: field:sale.shop,pricelist_id:0
 msgid "Pricelist"
 msgstr "Bảng giá"
@@ -1420,9 +1375,7 @@ msgstr "Thứ tự"
 #: model:ir.actions.act_window,name:sale.open_board_sales
 #: model:ir.ui.menu,name:sale.menu_dashboard_sales
 #: model:process.process,name:sale.process_process_salesprocess0
-#: view:res.partner:0
-#: view:sale.order:0
-#: view:sale.report:0
+#: view:res.partner:0 view:sale.order:0 view:sale.report:0
 msgid "Sales"
 msgstr "Bán hàng"
 
@@ -1450,17 +1403,13 @@ msgid "Quotation Date"
 msgstr "Ngày báo giá"
 
 #. module: sale
-#: field:sale.order,amount_total:0
-#: view:sale.order.line:0
+#: field:sale.order,amount_total:0 view:sale.order.line:0
 msgid "Total"
 msgstr "Tổng"
 
 #. module: sale
-#: view:sale.order:0
-#: selection:sale.order,state:0
-#: view:sale.order.line:0
-#: selection:sale.order.line,state:0
-#: selection:sale.report,state:0
+#: view:sale.order:0 selection:sale.order,state:0 view:sale.order.line:0
+#: selection:sale.order.line,state:0 selection:sale.report,state:0
 msgid "Done"
 msgstr "Hoàn thành"
 
@@ -1472,8 +1421,7 @@ msgstr "Địa chỉ hóa đơn:"
 #. module: sale
 #: code:addons/sale/wizard/sale_line_invoice.py:121
 #: model:ir.model,name:sale.model_account_invoice
-#: model:process.node,name:sale.process_node_invoice0
-#: view:sale.order:0
+#: model:process.node,name:sale.process_node_invoice0 view:sale.order:0
 #, python-format
 msgid "Invoice"
 msgstr "Hóa đơn"
@@ -1485,8 +1433,7 @@ msgstr ""
 
 #. module: sale
 #: model:process.transition.action,name:sale.process_transition_action_cancel0
-#: view:sale.advance.payment.inv:0
-#: view:sale.make.invoice:0
+#: view:sale.advance.payment.inv:0 view:sale.make.invoice:0
 #: view:sale.order.line.make.invoice:0
 msgid "Cancel"
 msgstr "Hủy"
@@ -1589,10 +1536,8 @@ msgstr ""
 #. module: sale
 #: model:process.transition,name:sale.process_transition_invoice0
 #: model:process.transition.action,name:sale.process_transition_action_createinvoice0
-#: view:sale.advance.payment.inv:0
-#: view:sale.order:0
-#: field:sale.order,order_policy:0
-#: view:sale.order.line:0
+#: view:sale.advance.payment.inv:0 view:sale.order:0
+#: field:sale.order,order_policy:0 view:sale.order.line:0
 msgid "Create Invoice"
 msgstr "Tạo hóa đơn"
 
@@ -1612,8 +1557,7 @@ msgid "It indicates that an invoice has been paid."
 msgstr ""
 
 #. module: sale
-#: report:sale.order:0
-#: field:sale.order.line,price_unit:0
+#: report:sale.order:0 field:sale.order.line,price_unit:0
 msgid "Unit Price"
 msgstr "Đơn giá"
 
@@ -1642,8 +1586,8 @@ msgid ""
 "    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
 "       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
 "       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
-"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} "
-"${object.pricelist_id.currency_id.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object."
+"pricelist_id.currency_id.name}</strong><br />\n"
 "       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
 "       % if object.origin:\n"
 "       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
@@ -1661,8 +1605,8 @@ msgid ""
 "    <br/>\n"
 "    <p>It is also possible to directly pay with Paypal:</p>\n"
 "        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
-"            <img class=\"oe_edi_paypal_button\" "
-"src=\"https://www.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif\"/>\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"https://www.paypal.com/"
+"en_US/i/btn/btn_paynowCC_LG.gif\"/>\n"
 "        </a>\n"
 "    % endif\n"
 "\n"
@@ -1676,8 +1620,8 @@ msgid ""
 "background-repeat: repeat no-repeat;\">\n"
 "        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: "
 "#DDD;\">\n"
-"            <strong style=\"text-"
-"transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
+"            <strong style=\"text-transform:uppercase;\">${object.company_id."
+"name}</strong></h3>\n"
 "    </div>\n"
 "    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: "
 "16px; background-color: #F2F2F2;\">\n"
@@ -1692,9 +1636,8 @@ msgid ""
 "            ${object.company_id.zip} ${object.company_id.city}<br/>\n"
 "        % endif\n"
 "        % if object.company_id.country_id:\n"
-"            ${object.company_id.state_id and ('%s, ' % "
-"object.company_id.state_id.name) or ''} ${object.company_id.country_id.name "
-"or ''}<br/>\n"
+"            ${object.company_id.state_id and ('%s, ' % object.company_id."
+"state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
 "        % endif\n"
 "        </span>\n"
 "        % if object.company_id.phone:\n"
@@ -1706,8 +1649,8 @@ msgid ""
 "        % endif\n"
 "        % if object.company_id.website:\n"
 "            <div>\n"
-"                Web :&nbsp;<a "
-"href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
+"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object."
+"company_id.website}</a>\n"
 "            </div>\n"
 "        %endif\n"
 "        <p></p>\n"
@@ -1717,10 +1660,8 @@ msgid ""
 msgstr ""
 
 #. module: sale
-#: view:sale.order.line:0
-#: field:sale.order.line,product_id:0
-#: view:sale.report:0
-#: field:sale.report,product_id:0
+#: view:sale.order.line:0 field:sale.order.line,product_id:0
+#: view:sale.report:0 field:sale.report,product_id:0
 msgid "Product"
 msgstr "Sản phẩm"
 
@@ -1760,8 +1701,8 @@ msgstr "Giá"
 #. module: sale
 #: help:sale.order,order_policy:0
 msgid ""
-"On demand: A draft invoice can be created from the sales order when needed. "
-"\n"
+"On demand: A draft invoice can be created from the sales order when "
+"needed. \n"
 "On delivery order: A draft invoice can be created from the delivery order "
 "when the products have been delivered. \n"
 "Before delivery: A draft invoice is created from the sales order and must be "
@@ -1847,8 +1788,7 @@ msgid "Order Number"
 msgstr ""
 
 #. module: sale
-#: view:sale.order:0
-#: field:sale.order,partner_id:0
+#: view:sale.order:0 field:sale.order,partner_id:0
 #: field:sale.order.line,order_partner_id:0
 msgid "Customer"
 msgstr "Khách hàng"
@@ -1978,14 +1918,12 @@ msgid "Messages and communication history"
 msgstr ""
 
 #. module: sale
-#: view:sale.order:0
-#: view:sale.order.line:0
+#: view:sale.order:0 view:sale.order.line:0
 msgid "Search Sales Order"
 msgstr "Tìm kiếm Đơn hàng"
 
 #. module: sale
-#: report:sale.order:0
-#: field:sale.order.line,name:0
+#: report:sale.order:0 field:sale.order.line,name:0
 msgid "Description"
 msgstr "Mô tả"
 
@@ -2039,8 +1977,7 @@ msgid "Cannot delete a sales order line which is in state '%s'."
 msgstr ""
 
 #. module: sale
-#: report:sale.order:0
-#: field:sale.order,payment_term:0
+#: report:sale.order:0 field:sale.order,payment_term:0
 msgid "Payment Term"
 msgstr "Điều khoản thanh toán"
 
@@ -2055,16 +1992,14 @@ msgid "Generate invoices based on the sales order lines"
 msgstr ""
 
 #. module: sale
-#: view:sale.advance.payment.inv:0
-#: view:sale.make.invoice:0
+#: view:sale.advance.payment.inv:0 view:sale.make.invoice:0
 #: view:sale.order.line.make.invoice:0
 msgid "or"
 msgstr ""
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_order_line_product_tree
-#: view:sale.order:0
-#: view:sale.order.line:0
+#: view:sale.order:0 view:sale.order.line:0
 msgid "Sales Order Lines"
 msgstr "Sản phẩm đơn chào hàng"
 
@@ -2164,8 +2099,8 @@ msgstr ""
 #~ "If you don't have enough stock available to deliver all at once, do you "
 #~ "accept partial shipments or not?"
 #~ msgstr ""
-#~ "Nếu bạn không có đủ hàng để giao hàng toàn bộ một lần, bạn có chấp nhận giao "
-#~ "hàng từng phần hay không?"
+#~ "Nếu bạn không có đủ hàng để giao hàng toàn bộ một lần, bạn có chấp nhận "
+#~ "giao hàng từng phần hay không?"
 
 #~ msgid "Make Invoice"
 #~ msgstr "Lập hóa đơn"
@@ -2175,31 +2110,32 @@ msgstr ""
 #~ msgstr "Đây là danh sách các sản phẩm đã chọn được tạo ra cho hóa đơn này"
 
 #~ msgid ""
-#~ "Whenever confirm button is clicked, the draft state is moved to manual. that "
-#~ "is, quotation is moved to  sale order."
+#~ "Whenever confirm button is clicked, the draft state is moved to manual. "
+#~ "that is, quotation is moved to  sale order."
 #~ msgstr ""
 #~ "Bất kỳ khi nào nút xác nhận được chọn, trạng thái dự thảo sẽ được chuyển "
 #~ "sang thủ công. Nghĩa là, báo giá được chuyển thành đơn chào hàng."
 
 #~ msgid ""
 #~ "The sale order will automatically create the invoice proposition (draft "
-#~ "invoice). Ordered and delivered quantities may not be the same. You have to "
-#~ "choose if you invoice based on ordered or shipped quantities. If the product "
-#~ "is a service, shipped quantities means hours spent on the associated tasks."
+#~ "invoice). Ordered and delivered quantities may not be the same. You have "
+#~ "to choose if you invoice based on ordered or shipped quantities. If the "
+#~ "product is a service, shipped quantities means hours spent on the "
+#~ "associated tasks."
 #~ msgstr ""
-#~ "Đơn chào hàng sẽ tự động tạo hóa đơn gợi ý (hóa đơn dự thảo). Số lượng yêu "
-#~ "cầu và số lượng giao hàng có thể không giống nhau. Bạn phải chọn nếu bạn lập "
-#~ "hóa đơn dựa trên số lượng đặt hàng hay số lượng giao hàng. Nếu sản phẩm là "
-#~ "một dịch vụ, số lượng giao hàng có nghĩa là số giờ đã dùng để thực hiện các "
-#~ "công việc liên quan."
+#~ "Đơn chào hàng sẽ tự động tạo hóa đơn gợi ý (hóa đơn dự thảo). Số lượng "
+#~ "yêu cầu và số lượng giao hàng có thể không giống nhau. Bạn phải chọn nếu "
+#~ "bạn lập hóa đơn dựa trên số lượng đặt hàng hay số lượng giao hàng. Nếu "
+#~ "sản phẩm là một dịch vụ, số lượng giao hàng có nghĩa là số giờ đã dùng để "
+#~ "thực hiện các công việc liên quan."
 
 #~ msgid ""
-#~ "Packing list is created when 'Assign' is being clicked after confirming the "
-#~ "sale order. This transaction moves the sale order to packing list."
+#~ "Packing list is created when 'Assign' is being clicked after confirming "
+#~ "the sale order. This transaction moves the sale order to packing list."
 #~ msgstr ""
 #~ "Bảng kê bao bì hàng hóa được tạo khi nút 'Chỉ định' được chọn sau khi xác "
-#~ "nhận đơn chào hàng. Giao dịch này chuyển đơn chào hàng sang bảng kê bao bì "
-#~ "hàng hóa."
+#~ "nhận đơn chào hàng. Giao dịch này chuyển đơn chào hàng sang bảng kê bao "
+#~ "bì hàng hóa."
 
 #~ msgid ""
 #~ "When you select Shipping Ploicy = 'Automatic Invoice after delivery' , it "
@@ -2295,12 +2231,10 @@ msgstr ""
 #~ msgid "All Sales Order"
 #~ msgstr "Tất cả đơn chào hàng"
 
-#, python-format
 #~ msgid "You must first cancel all packing attached to this sale order."
 #~ msgstr ""
 #~ "Đầu tiên bạn phải hủy tất cả các đóng gói gắn liền với đơn chào hàng này."
 
-#, python-format
 #~ msgid ""
 #~ "You have to select a customer in the sale form !\n"
 #~ "Please set one customer before choosing a product."
@@ -2323,7 +2257,6 @@ msgstr ""
 #~ msgid "My sales order waiting Invoice"
 #~ msgstr "Đơn chào hàng của tôi đang chờ Hóa đơn"
 
-#, python-format
 #~ msgid "Error !"
 #~ msgstr "Lỗi!"
 
@@ -2342,7 +2275,6 @@ msgstr ""
 #~ msgid "Confirm Order"
 #~ msgstr "Xác nhận đơn chào hàng"
 
-#, python-format
 #~ msgid "Invalid action !"
 #~ msgstr "Hành động không hợp lệ!"
 
@@ -2382,7 +2314,6 @@ msgstr ""
 #~ msgid "Shipping Default Policy"
 #~ msgstr "Chính sách vận chuyển mặc định"
 
-#, python-format
 #~ msgid "Could not cancel sale order !"
 #~ msgstr "Không thể hủy đơn chào hàng!"
 
@@ -2396,11 +2327,11 @@ msgstr ""
 #~ msgstr "Nhân viên bán hàng"
 
 #~ msgid ""
-#~ "In sale order , procuerement for each line and it comes into the procurement "
-#~ "order"
+#~ "In sale order , procuerement for each line and it comes into the "
+#~ "procurement order"
 #~ msgstr ""
-#~ "Trong đơn chào hàng, thu mua hàng cho mỗi sản phẩm và nó sẽ chuyển sang yêu "
-#~ "cầu thu mua"
+#~ "Trong đơn chào hàng, thu mua hàng cho mỗi sản phẩm và nó sẽ chuyển sang "
+#~ "yêu cầu thu mua"
 
 #~ msgid "Order State"
 #~ msgstr "Trạng thái đơn chào hàng"
@@ -2439,13 +2370,12 @@ msgstr ""
 #~ msgid "Configure Sale Order Logistic"
 #~ msgstr "Thiết lập hậu cần đơn chào hàng"
 
-#, python-format
 #~ msgid ""
 #~ "There is no income category account defined in default Properties for "
 #~ "Product Category or Fiscal Position is not defined !"
 #~ msgstr ""
-#~ "Không có tài khoản loại thu nhập được định nghĩa trong các đặc tính mặc định "
-#~ "cho loại sản phẩm hoặc chức vụ tài chính không được thiết lập!"
+#~ "Không có tài khoản loại thu nhập được định nghĩa trong các đặc tính mặc "
+#~ "định cho loại sản phẩm hoặc chức vụ tài chính không được thiết lập!"
 
 #~ msgid "Packing Policy"
 #~ msgstr "Chính sách đóng gói bao bì"
@@ -2453,7 +2383,6 @@ msgstr ""
 #~ msgid "Product sales"
 #~ msgstr "Bán sản phẩm"
 
-#, python-format
 #~ msgid "invalid mode for test_state"
 #~ msgstr "hình thức không hợp lệ cho trạng thái kiểm tra"
 
@@ -2478,11 +2407,9 @@ msgstr ""
 #~ msgid "Compute"
 #~ msgstr "Tính"
 
-#, python-format
 #~ msgid "Error"
 #~ msgstr "Lỗi"
 
-#, python-format
 #~ msgid ""
 #~ "You cannot make an advance on a sale order that is defined as 'Automatic "
 #~ "Invoice after delivery'."
@@ -2510,18 +2437,17 @@ msgstr ""
 
 #~ msgid ""
 #~ "Gives the state of the quotation or sale order. The exception state is "
-#~ "automatically set when a cancel operation occurs in the invoice validation "
-#~ "(Invoice Exception) or in the packing list process (Shipping Exception). The "
-#~ "'Waiting Schedule' state is set when the invoice is confirmed but waiting "
-#~ "for the scheduler to run on the date 'Date Ordered'."
+#~ "automatically set when a cancel operation occurs in the invoice "
+#~ "validation (Invoice Exception) or in the packing list process (Shipping "
+#~ "Exception). The 'Waiting Schedule' state is set when the invoice is "
+#~ "confirmed but waiting for the scheduler to run on the date 'Date Ordered'."
 #~ msgstr ""
-#~ "Cung cấp trạng thái của báo giá hoặc đơn chào hàng. Trạng thái ngoại lệ được "
-#~ "tự động thiết lập khi một giao dịch hủy xảy tra trong quá trình xác nhận hóa "
-#~ "đơn (Hóa đơn ngoại lệ) hoặc trong quá trình đóng gói (Vận chuyển ngoại lệ). "
-#~ "Trạng thái 'Lịch chờ' được thiết lập khi hóa đơn được xác nhận nhưng đang "
-#~ "chờ người lập lịch trình xử lý ngày 'Ngày đặt hàng'."
+#~ "Cung cấp trạng thái của báo giá hoặc đơn chào hàng. Trạng thái ngoại lệ "
+#~ "được tự động thiết lập khi một giao dịch hủy xảy tra trong quá trình xác "
+#~ "nhận hóa đơn (Hóa đơn ngoại lệ) hoặc trong quá trình đóng gói (Vận chuyển "
+#~ "ngoại lệ). Trạng thái 'Lịch chờ' được thiết lập khi hóa đơn được xác nhận "
+#~ "nhưng đang chờ người lập lịch trình xử lý ngày 'Ngày đặt hàng'."
 
-#, python-format
 #~ msgid "Warning"
 #~ msgstr "Cảnh báo"
 
@@ -2532,13 +2458,12 @@ msgstr ""
 #~ msgstr "Số lượng gói hàng"
 
 #~ msgid ""
-#~ "Confirming the packing list moves them to delivery order. This can be done "
-#~ "by clicking on 'Validate' button."
+#~ "Confirming the packing list moves them to delivery order. This can be "
+#~ "done by clicking on 'Validate' button."
 #~ msgstr ""
-#~ "Xác nhận bảng kê bao bì hàng hóa chuyển chúng sang yêu cầu giao hàng. Việc "
-#~ "này có thể được thực hiện bằng cách chọn nút 'Xác nhận'."
+#~ "Xác nhận bảng kê bao bì hàng hóa chuyển chúng sang yêu cầu giao hàng. "
+#~ "Việc này có thể được thực hiện bằng cách chọn nút 'Xác nhận'."
 
-#, python-format
 #~ msgid "You cannot cancel a sale order line that has already been invoiced !"
 #~ msgstr "Bạn không thể hủy một đơn chào hàng sản phẩm đã được lập hóa đơn!"
 
@@ -2548,7 +2473,8 @@ msgstr ""
 #~ msgid ""
 #~ "The Object name must start with x_ and not contain any special character !"
 #~ msgstr ""
-#~ "Tên đối tượng phải bắt đầu với x_ và không bao gồm bất kỳ ký tự đặc biệt nào!"
+#~ "Tên đối tượng phải bắt đầu với x_ và không bao gồm bất kỳ ký tự đặc biệt "
+#~ "nào!"
 
 #~ msgid "Confirm sale order and Create invoice."
 #~ msgstr "Xác nhận đơn chào hàng và tạo hóa đơn."
@@ -2557,11 +2483,12 @@ msgstr ""
 #~ msgstr "Bảng kê bao bì hàng hóa & Yêu cầu giao hàng"
 
 #~ msgid ""
-#~ "Invoice is created when 'Create Invoice' is being clicked after confirming "
-#~ "the sale order. This transaction moves the sale order to invoices."
+#~ "Invoice is created when 'Create Invoice' is being clicked after "
+#~ "confirming the sale order. This transaction moves the sale order to "
+#~ "invoices."
 #~ msgstr ""
-#~ "Hóa đơn được tạo khi nút 'Tạo hóa đơn' được chọn sau khi xác nhận đơn chào "
-#~ "hàng. Giao dịch này chuyển đơn chào hàng sang hóa đơn."
+#~ "Hóa đơn được tạo khi nút 'Tạo hóa đơn' được chọn sau khi xác nhận đơn "
+#~ "chào hàng. Giao dịch này chuyển đơn chào hàng sang hóa đơn."
 
 #~ msgid "Sale Order Lines"
 #~ msgstr "Sản phẩm đơn chào hàng"
@@ -2593,7 +2520,6 @@ msgstr ""
 #~ msgid "Deliver"
 #~ msgstr "Giao hàng"
 
-#, python-format
 #~ msgid "Could not cancel this sale order !"
 #~ msgstr "Không thể hủy đơn chào hàng này!"
 
@@ -2616,7 +2542,6 @@ msgstr ""
 #~ msgid "Purchase Pricelists"
 #~ msgstr "Bảng giá mua hàng"
 
-#, python-format
 #~ msgid "Cannot delete Sale Order(s) which are already confirmed !"
 #~ msgstr "Không thể hủy đơn chào hàng đã được xác nhận!"
 
@@ -2633,15 +2558,15 @@ msgstr ""
 #~ msgstr "Đơn vị đo của sản phẩm"
 
 #~ msgid ""
-#~ "By default, Open ERP is able to manage complex routing and paths of products "
-#~ "in your warehouse and partner locations. This will configure the most common "
-#~ "and simple methods to deliver products to the customer in one or two "
-#~ "operations by the worker."
+#~ "By default, Open ERP is able to manage complex routing and paths of "
+#~ "products in your warehouse and partner locations. This will configure the "
+#~ "most common and simple methods to deliver products to the customer in one "
+#~ "or two operations by the worker."
 #~ msgstr ""
-#~ "Theo mặc định, Open ERP có thể quản lý lộ trình và các đường đi phức tạp của "
-#~ "sản phẩm trong kho của bạn và địa điểm của đối tác.  Nó sẽ thiết lập các "
-#~ "phương pháp phổ biến và đơn giản nhất để nhân viên giao hàng đến khách hàng "
-#~ "ở một hoặc hai khu vực hoạt động."
+#~ "Theo mặc định, Open ERP có thể quản lý lộ trình và các đường đi phức tạp "
+#~ "của sản phẩm trong kho của bạn và địa điểm của đối tác.  Nó sẽ thiết lập "
+#~ "các phương pháp phổ biến và đơn giản nhất để nhân viên giao hàng đến "
+#~ "khách hàng ở một hoặc hai khu vực hoạt động."
 
 #~ msgid "Configure Picking Policy for Sale Order"
 #~ msgstr "Thiết lập chính sách chọn hàng cho đơn chào hàng"
@@ -2659,9 +2584,9 @@ msgstr ""
 #~ msgstr "Thanh toán trước giao hàng"
 
 #~ msgid ""
-#~ "This is the list of invoices that have been generated for this sale order. "
-#~ "The same sale order may have been invoiced in several times (by line for "
-#~ "example)."
+#~ "This is the list of invoices that have been generated for this sale "
+#~ "order. The same sale order may have been invoiced in several times (by "
+#~ "line for example)."
 #~ msgstr ""
 #~ "Đây là danh sách các hóa đơn đã được tạo cho đơn chào hàng này. Cùng đơn "
 #~ "chào hàng có thể được lập hóa đơn nhiều lần (ví dụ như theo dòng)."
@@ -2669,7 +2594,6 @@ msgstr ""
 #~ msgid "States"
 #~ msgstr "Trạng thái"
 
-#, python-format
 #~ msgid "You must first cancel all invoices attached to this sale order."
 #~ msgstr ""
 #~ "Đầu tiên bạn phải hủy tất cả các hóa đơn gắn liền với đơn chào hàng này."
@@ -2689,7 +2613,6 @@ msgstr ""
 #~ msgid "Sale Order line"
 #~ msgstr "Sản phẩm đơn chào hàng"
 
-#, python-format
 #~ msgid "Warning !"
 #~ msgstr "Cảnh báo !"
 
@@ -2747,26 +2670,26 @@ msgstr ""
 #~ msgid "Allows you to compute delivery costs on your quotations."
 #~ msgstr "Cho phép bạn tính toán chi phí giao hàng trên Đơn chào hàng của bạn"
 
-#, python-format
 #~ msgid "The quotation '%s' has been converted to a sales order."
 #~ msgstr "Đơn chào hàng '%s' đã được chuyển thành Đơn đặt hàng"
 
 #~ msgid ""
 #~ "Sales Orders help you manage quotations and orders from your customers. "
 #~ "OpenERP suggests that you start by creating a quotation. Once it is "
-#~ "confirmed, the quotation will be converted into a Sales Order. OpenERP can "
-#~ "handle several types of products so that a sales order may trigger tasks, "
-#~ "delivery orders, manufacturing orders, purchases and so on. Based on the "
-#~ "configuration of the sales order, a draft invoice will be generated so that "
-#~ "you just have to confirm it when you want to bill your customer."
+#~ "confirmed, the quotation will be converted into a Sales Order. OpenERP "
+#~ "can handle several types of products so that a sales order may trigger "
+#~ "tasks, delivery orders, manufacturing orders, purchases and so on. Based "
+#~ "on the configuration of the sales order, a draft invoice will be "
+#~ "generated so that you just have to confirm it when you want to bill your "
+#~ "customer."
 #~ msgstr ""
-#~ "Sales Orders help you manage quotations and orders from your customers. You "
-#~ "are suggested to start by creating a quotation. Once it is confirmed, the "
-#~ "quotation will be converted into a Sales Order. The System can handle "
-#~ "several types of products so that a sales order may trigger tasks, delivery "
-#~ "orders, manufacturing orders, purchases and so on. Based on the "
-#~ "configuration of the sales order, a draft invoice will be generated so that "
-#~ "you just have to confirm it when you want to bill your customer"
+#~ "Sales Orders help you manage quotations and orders from your customers. "
+#~ "You are suggested to start by creating a quotation. Once it is confirmed, "
+#~ "the quotation will be converted into a Sales Order. The System can handle "
+#~ "several types of products so that a sales order may trigger tasks, "
+#~ "delivery orders, manufacturing orders, purchases and so on. Based on the "
+#~ "configuration of the sales order, a draft invoice will be generated so "
+#~ "that you just have to confirm it when you want to bill your customer"
 
 #~ msgid "VAT"
 #~ msgstr "Thuế GTGT"
@@ -2783,17 +2706,16 @@ msgstr ""
 #~ msgid "Sales Manager Dashboard"
 #~ msgstr "Bản điều khiển quản lý bán hàng"
 
-#, python-format
 #~ msgid "(n/a)"
 #~ msgstr "(n/a)"
 
 #~ msgid ""
-#~ "Number of days between the order confirmation the shipping of the products "
-#~ "to the customer"
+#~ "Number of days between the order confirmation the shipping of the "
+#~ "products to the customer"
 #~ msgstr ""
-#~ "Số ngày từ lúc xác nhận đặt hàng tới lúc vận chuyển sản phẩm tới khách hàng"
+#~ "Số ngày từ lúc xác nhận đặt hàng tới lúc vận chuyển sản phẩm tới khách "
+#~ "hàng"
 
-#, python-format
 #~ msgid "Could not cancel this sales order !"
 #~ msgstr "Không thể hủy hóa đơn bán hàng này"
 
