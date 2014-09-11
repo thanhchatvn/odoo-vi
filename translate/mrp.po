@@ -29,7 +29,14 @@ msgid ""
 "                    * Notes for the technician and for the final customer.\n"
 "                This installs the module mrp_repair."
 msgstr ""
-
+"Cho phép quản lý tất cả các sản phẩm sửa chữa.\n"
+"                    * Thêm/bớt sản phẩm trong công đoạn sửa chửa\n"
+"                    * Tác động cho hàng tồn kho\n"
+"                    * Hóa đơn (sản phẩm và/hoặc dịch vụ)\n"
+"                    * Điều khoản bảo hành \n"
+"                    * Báo cáo chào giá sửa chữa\n"
+"                    * Ghi chú cho kỹ thuật và cho người dùng cuốir.\n"
+"                Ở đây cài đặt phân hệ mrp_repair."
 #. module: mrp
 #: report:mrp.production.order:0
 msgid "No. Of Cycles"
