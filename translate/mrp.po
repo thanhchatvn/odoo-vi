@@ -62,34 +62,34 @@ msgstr "số vòng của sản phẩm sản xuất"
 msgid ""
 "The 'Minimum stock rule' allows the system to create procurement orders "
 "automatically as soon as the minimum stock is reached."
-msgstr ""
+msgstr "Tồn kho tối thiểu cho phép hệ thống tạo lệnhh sản xuất một cách tự động ngay khi tồn kho tối thiểu diễn ra"
 
 #. module: mrp
 #: code:addons/mrp/report/price.py:130
 #, python-format
 msgid "Hourly Cost"
-msgstr ""
+msgstr "Chi phí trên giờ"
 
 #. module: mrp
 #: view:mrp.production:0
 msgid "Scrap Products"
-msgstr ""
+msgstr "Sản phẩm phụ"
 
 #. module: mrp
 #: view:mrp.workcenter:0
 msgid "Mrp Workcenter"
-msgstr ""
+msgstr "Trung tâm sản xuất"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_routing_action
 #: model:ir.ui.menu,name:mrp.menu_mrp_routing_action
 msgid "Routings"
-msgstr ""
+msgstr "Luồng công việc"
 
 #. module: mrp
 #: view:mrp.bom:0
 msgid "Search Bill Of Material"
-msgstr ""
+msgstr "Tiềm bảng kê vật liệu"
 
 #. module: mrp
 #: model:process.node,note:mrp.process_node_stockproduct1
